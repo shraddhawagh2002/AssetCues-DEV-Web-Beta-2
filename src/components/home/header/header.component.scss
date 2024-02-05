@@ -1,0 +1,76 @@
+header {
+    background: white;
+    color: rgba(10, 33, 52, 0.9490196078);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 51px 39px
+    
+}
+.checker {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+.logo {
+    margin-right: 15px;
+    height: 62px; /* Adjust the height as needed */
+}
+.site_name p {
+    font-size: 3vw;
+    color: black;
+}
+.nav, .buttons {
+    display: flex;
+    // margin-top: 20px;
+    justify-content: space-between;
+
+}
+.header-button {
+    background: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    align-items: center;
+    padding: 16px 30px;
+    font-family: Poppins light;
+    font-size: 19px;
+    font-weight: 600;
+    text-align: left;
+}
+button, [role="button"] {
+    cursor: pointer;
+}
+.header-button:hover {
+    border: 1px solid #05E9F0;
+}
+.sign-in {
+    background-color: #d8e1e4;
+    color: #000;
+    border: none;
+    padding: 20px 38px;
+    border-radius: 58px;
+    cursor: pointer;
+    align-items: center;
+    transition: background-color 0.3s;
+    margin-right: 29px;
+}
+.sign-in:hover {
+    background-color: #05E9F0;
+}
+.try_for_free {
+    background-color: #0051ff;
+    color: white;
+    padding: 20px 29px;
+    align-items: center;
+    border-radius: 85px;
+    cursor: pointer;
+}
+.try_for_free:hover {
+    background-color: #0e7ee6;
+}
