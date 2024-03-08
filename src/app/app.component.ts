@@ -32,16 +32,12 @@ import { PerformAuditComponent } from '../components/rfid-based/perform-audit/pe
       BlogsComponent,
       ScheduleDemoComponent,
       TechnologyProcessComponent,
-      
       BlogsComponent,
       ScheduleDemoComponent,
-      TechnologyProcessComponent,
       HeroSectionComponent,
-      CustomerSpaceComponent,
-      
+      CustomerSpaceComponent,  
       GlobalEnterprisesComponent,
-      BarcodeComponent,
-      
+      BarcodeComponent,      
       AlgoComponent,
       PerformAuditComponent,
       SideNavComponent,

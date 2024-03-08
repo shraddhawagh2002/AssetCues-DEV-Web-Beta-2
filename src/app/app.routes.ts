@@ -26,7 +26,7 @@ export const routes: Routes = [
     // {path: 'biotech', loadChildren: () => import('../components/Biotech/biotech.module').then(m =>m.biotechModule)},
   
             //   {path: '', redirectTo:'/', pathMatch: 'full' },
-         {path: 'navbar', title:'nav bar', component: DashboardNavbarComponent },
+         {path: '', title:'nav bar', component: DashboardNavbarComponent },
          {path: 'customerspace', title:'customer space', component: CustomerSpaceComponent },
          {path: 'casestudies', title:'case studies', component: CaseStudiesComponent },
          {path: 'blogs', title:'blogs', component: BlogsComponent },
