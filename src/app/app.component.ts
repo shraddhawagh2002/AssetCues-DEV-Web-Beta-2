@@ -1,21 +1,22 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { TabLayoutOnPageComponent } from "../components/tab-layout-on-page/tab-layout-on-page.component";
-import { SimpleAssetComponent } from '../components/simple-asset/simple-asset.component';
-import { SideNavComponent } from '../components/side-nav/side-nav.component';
-import { SmoothTransitionComponent } from '../components/smooth-transition/smooth-transition.component';
-import { AccurateCalculationComponent } from '../components/accurate-calculation/accurate-calculation.component';
-import { AssetVerificationComponent } from '../components/asset-verification/asset-verification.component';
-import { PhysicalAssetComponent } from '../components/physical-asset/physical-asset.component';
-import { LearnMoreComponent } from '../components/learn-more/learn-more.component';
-import { SuccessStoryComponent } from '../components/success-story/success-story.component';
-import { IntegrationsComponent } from '../components/integrations/integrations.component';
-import { ManagedServicesComponent } from '../components/managed-services/managed-services.component';
-import { HomeComponent } from '../components2/home/home.component';
-import { BlogsComponent } from '../components2/blogs/blogs.component';
-import { ScheduleDemoComponent } from '../components2/schedule-demo/schedule-demo.component';
-import { TechnologyProcessComponent } from '../components2/technology-process/technology-process.component';
+import { AssetInventoryComponent } from '../components/asset-audit/asset-inventory/asset-inventory.component';
+import { BarcodeComponent } from '../components/asset-audit/barcode/barcode.component';
+import { AlgoComponent } from '../components/barcode-based/algo/algo.component';
+import { ScheduleDemoComponent } from '../components/barcode-based/schedule-demo/schedule-demo.component';
+import { BlogsComponent } from '../components/common/blogs/blogs.component';
+import { CaseStudiesComponent } from '../components/common/case-studies/case-studies.component';
+import { CustomerSpaceComponent } from '../components/common/customer-space/customer-space.component';
+import { DashboardNavbarComponent } from '../components/common/dashboard-navbar/dashboard-navbar.component';
+import { CasestudiesComponent } from '../components/home/casestudies/casestudies.component';
+import { GlobalEnterprisesComponent } from '../components/home/global-enterprises/global-enterprises.component';
+import { HeroSectionComponent } from '../components/home/hero-section/hero-section.component';
+import { HomePageVedioComponent } from '../components/home/home-page-vedio/home-page-vedio.component';
+import { SideNavComponent } from '../components/home/side-nav/side-nav.component';
+import { TechnologyProcessComponent } from '../components/home/technology-process/technology-process.component';
+import { PerformAuditComponent } from '../components/rfid-based/perform-audit/perform-audit.component';
+
 
 
 
@@ -28,21 +29,27 @@ import { TechnologyProcessComponent } from '../components2/technology-process/te
     imports: [
       CommonModule, 
       RouterOutlet,       
-      TabLayoutOnPageComponent, 
-      SimpleAssetComponent,
-      SideNavComponent,
-      SmoothTransitionComponent,
-      AccurateCalculationComponent ,
-      AssetVerificationComponent,
-      PhysicalAssetComponent,
-      LearnMoreComponent,
-      SuccessStoryComponent,
-      IntegrationsComponent ,
-      ManagedServicesComponent,
-      HomeComponent,
       BlogsComponent,
       ScheduleDemoComponent,
-      TechnologyProcessComponent
+      TechnologyProcessComponent,
+      
+      BlogsComponent,
+      ScheduleDemoComponent,
+      TechnologyProcessComponent,
+      HeroSectionComponent,
+      CustomerSpaceComponent,
+      
+      GlobalEnterprisesComponent,
+      BarcodeComponent,
+      
+      AlgoComponent,
+      PerformAuditComponent,
+      SideNavComponent,
+      CasestudiesComponent,
+      AssetInventoryComponent,
+      CaseStudiesComponent,
+      DashboardNavbarComponent,
+      HomePageVedioComponent
     ]
 })
 export class AppComponent {
